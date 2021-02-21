@@ -10,3 +10,12 @@ func TestMin(t *testing.T) {
        t.Errorf("test error, %d, %d", a, b)
    }
 }
+
+func TestMin(t *testing.T) {
+   a := 2
+   b := 1
+   res := Min(a, b)
+   if res == false {
+       t.Errorf("test error, %d, %d", a, b)
+   }
+}
