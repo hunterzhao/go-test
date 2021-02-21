@@ -12,10 +12,10 @@ func TestMin(t *testing.T) {
 }
 
 func TestMinErr(t *testing.T) {
-   a := 2
-   b := 3
+   a := 3
+   b := 2
    res := Min(a, b)
-   if res == false {
+   if res == true {
        t.Errorf("test error, %d, %d", a, b)
    }
 }
