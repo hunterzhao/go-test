@@ -11,7 +11,7 @@ func TestMin(t *testing.T) {
    }
 }
 
-func TestMin(t *testing.T) {
+func TestMinErr(t *testing.T) {
    a := 2
    b := 1
    res := Min(a, b)
